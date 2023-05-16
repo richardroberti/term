@@ -1,8 +1,9 @@
-fpath+=$HOME/.zsh/pure
+autoload -U compinit promptinit
+compinit
+promptinit
 
-autoload -U promptinit; promptinit
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Эта настройка установит тему walters для приглашения командной строки
+prompt adam1
+zstyle ':completion:*' menu select
 
-prompt pure
-
+setopt HIST_IGNORE_DUPS
