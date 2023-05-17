@@ -7,3 +7,7 @@ prompt adam1
 zstyle ':completion:*' menu select
 
 setopt HIST_IGNORE_DUPS
+
+source ~/.zshrc
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
